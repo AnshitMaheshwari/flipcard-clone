@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    border: border-box;
+    background-color: #f0f0f0;
+ 
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 73px;
+    width: 1190px;
+   border-radius: 15px;
+   background-color: #f0f0f0;
+   justify-content: space-evenly;
+   
+}
+.nav-logo{
+    height: 70px;
+    width: 160px;
+    /* border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; */
+
+       
+}
+.logo{
+    background-image: url(flipcart.jpg);
+    background-color: #f0f0f0;
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+    /* border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; */
+
+}
+image{
+    background-color: #f0f0f0;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid rgb(27, 73, 241);
+}
+
+/* box 2  */
+.serchbar{
+    display: flex;
+    width: 100%;
+    
+}
+.glass
+{
+    height: 40px;
+    width: 46px;
+    border:none;
+    font-size: 1.2rem;
+  
+}
+.inputsearch{
+    height: 40px;
+    width: 550px;
+    border: none;
+    background-color: #f0f0f0;
+    border: border-box;
+
+}
+/* box 3 */
+
+.selecter{
+    display: flex;
+}
+.select{
+    border: none;
+    background-color: #f0f0f0;
+
+}
+/* box4 */
+.user-logo{
+   height: 40px;
+   width: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5rem;
+   
+}
+/* box5 */
+.cartlogo{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.para1{
+    font-size: 14px;
+   
+}
+/* box6 */
+.house{
+    height: 40px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    
+}
+.para2{
+    font-size: 15px;
+  
+}
+/* box7 */
+.selbar{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+/* headingtag */
+.hadingtags{
+    margin-top:10px;
+    height: 160px;
+    width: 1200px;
+    background-color: #f0f0f0;
+    display: flex;
+}
+.options{
+     margin:2px;
+    height: 150px;
+    width: 160px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+.grocery{
+    height: 110px;
+    width: 150px;
+    color: white;
+    background-image:url(grocery.jpg);
+    background-size: cover;
+    
+}
+.grocerytag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration:none ;
+    color: black;
+}
+a:hover{
+    color: blue;
+    
+}
+
+.mobile{
+    height: 112px;
+    width: 110px;
+    color: white;
+    background-image:url(mobile.jpg);
+    background-size: cover;
+    
+}
+.mobiletag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.fashion{
+    height:129px;
+    width: 77px;
+    color: white;
+    background-image:url(fashion.jpg);
+    background-size:cover;
+    
+}
+.fashiontag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.electronic{
+    height: 118px;
+    width: 142px;
+    color: white;
+    background-image:url(electronics.jpg);
+    background-size: cover;
+    
+}
+.electronictag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.furniture{
+    height: 112px;
+    width: 100px;
+    color: white;
+    background-image:url(home\ and\ furniture.jpg);
+    background-size: cover;
+    
+}
+.furnituretag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.applinces{
+    height: 100px;
+    width: 133px;
+    color: white;
+    background-image:url(appliences.jpg);
+    background-size: cover;
+    
+}
+.applncestag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.flight{
+    height: 112px;
+    width: 133px;
+    color: white;
+    background-image:url(flight.jpg);
+    background-size: cover;
+    
+}
+.flighttag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.beauty{
+    height: 112px;
+    width: 110px;
+    color: white;
+    background-image:url(beauty.jpg);
+    background-size: cover;
+    
+}
+.beautytag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.wheekel{
+    height: 112px;
+    width: 128px;
+    color: white;
+    background-image:url(two\ wheler.jpg);
+    background-size: cover;
+    
+}
+.wheekaltag{
+    height: 40px;
+    text-align: center;
+    
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.offers{
+    display: flex;
+
+}
+.offer{
+    background-image: url(offer.jpg);
+    
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+}
+.appll{
+    background-image: url(apple.jpg);
+    
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+}
+
+.heading1{
+    margin-top: 3px;
+    height: 65px;
+    width: 1000px;
+    background-color: #f0f0f0;
+    text-align: left;
+    align-content: center;
+}
+h2{
+    margin-left: 30px;
+    text-decoration: underline;
+}
+/* .contaner{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}*/
+.bokking{
+    background-image: url(flightbokking.jpg);
+    background-size: cover;
+    height:300px;
+    width:250px;
+}
+.electag{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    background-color: white;
+   
+    justify-content: space-evenly;
+    justify-items: center;
+
+
+}
+.outer{
+    height: 220px;
+    width: 200px;
+    background-color: white;
+    
+}
+.headphone{
+    background-image: url(headphone.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.price1{
+    height: 63px;
+    width: 230px;
+    text-align: center;
+    font-size: larger;
+    flex-direction: column;
+    background-color: white;
+}
+.ledtv{
+    background-image: url(ledtv.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 230px;
+    flex-direction: column;
+}
+.smartwatch{
+    background-image: url(smartwatch.jpg);
+    background-size: cover;
+    height: 228px;
+    width: 202px;
+    flex-direction: column;
+}
+.powerbank{
+background-image: url(powerbank.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 209px;
+    flex-direction: column;
+}
+.toys{
+    margin-top: 3px;
+    height: 65px;
+    width: 1200px;
+    background-color: #f0f0f0;
+    text-align: left;
+    align-content: center;
+    
+}
+.outer1{
+    height: 300px;
+    width: 1200px;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 300px;
+    width: 230px;
+    background-color: white;
+   
+}
+.rare{
+    height: 260px;
+    width: 187px;
+    background-image: url(rarebeauty.jpg);
+    background-size: cover;
+    margin-left: 22px;
+
+}
+.raretag{
+    
+        height: 63px;
+        width: 230px;
+        text-align: center;
+        font-size: larger;
+        flex-direction: column;
+        background-color: white;
+        padding-top: 15px;
+}
+.anchoer{
+    background-color: white;
+}
+
+.lipstik{
+    height: 260px;
+    width: 187px;
+    background-image: url(lipstik.jpg);
+    background-size: cover;
+    margin-left: 22px;
+}
+
+.car{
+    height:231px;
+    width: 230px;
+    background-image: url(car.jpg);
+    background-size: cover;
+
+}
+.raretag1{
+    height: 63px;
+    width: 230px;
+    text-align: center;
+    font-size: larger;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 42px;
+}
+
+ 
+.sofa{
+    height: 231px;
+    width: 230px;
+    background-image: url(sofa\ set.jpg);
+    background-size: cover;
+    
+}
+
+.raretag2{
+    height: 63px;
+    width: 230px;
+    text-align: center;
+    font-size: larger;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 40px;
+
+}
+
+.chair{
+    height: 253px;
+    width: 230px;
+    background-image: url(chair.jpg);
+    background-size: cover;
+    
+}
+.paragraph{
+    background-image: url(para1.jpg);
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.paragraph2{
+    background-image: url(para2.png);
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+}
+.paragraph3{
+    background-image: url(para3.jpg);
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+}
+.paragraph4{
+    background-image: url(para4.jpg);
+    background-size: cover;
+    width: 1200px;
+    height: 300px;
+}
+footer{
+    height:250px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.308);
+    background-image: url(footeer.jpg);
+    background-size: cover;
+
+}
